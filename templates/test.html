@@ -1,0 +1,23 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>{{ the_title }}</title>
+	</head>
+	<style>
+		#name {
+			width: 300px;
+			height: 20px;
+		}
+		#submit {
+			width: 95px;
+		}
+	</style>
+	<body>
+		<form method='POST' action='/results'>
+			<p>Используйте эту форму, чтобы получить данные по группе ВК:</p>
+			<input name = 'url' type='TEXT' id='name'> 
+			<p><input value='Получить' type='SUBMIT' id='submit'</p>
+		</form>
+	</body>
+</html>
